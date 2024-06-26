@@ -31,7 +31,6 @@ services:
    - POSTGRES_PASSWORD
   depends_on:
    - postgres-server
-   - zabbix-java-gateway
    - zabbix-snmptraps
   networks:
    zbx_net_backend:
